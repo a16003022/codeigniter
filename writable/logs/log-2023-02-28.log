@@ -1,0 +1,10 @@
+CRITICAL - 2023-02-28 23:59:44 --> Class "ejemplo\Model" not found
+in APPPATH\Models\Registrar.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Registrar.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Registrar')
+ 4 APPPATH\Controllers\Contacto.php(49): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Registrar')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

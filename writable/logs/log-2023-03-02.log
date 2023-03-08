@@ -1,0 +1,57 @@
+CRITICAL - 2023-03-02 22:11:44 --> Class "ejemplo\Model" not found
+in APPPATH\Models\Registrar.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Registrar.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Registrar')
+ 4 APPPATH\Controllers\Contacto.php(49): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Registrar')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 22:12:51 --> Class "ejemplo\Model" not found
+in APPPATH\Models\Registrar.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Registrar.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Registrar')
+ 4 APPPATH\Controllers\Contacto.php(49): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Registrar')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 22:14:26 --> Class "ejemplo\Model" not found
+in APPPATH\Models\Registrar.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Registrar.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Registrar')
+ 4 APPPATH\Controllers\Contacto.php(49): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Registrar')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 22:19:51 --> Call to undefined function App\Controllers\echo_json_encode()
+in APPPATH\Controllers\Contacto.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 22:20:56 --> Call to a member function getResult() on bool
+in APPPATH\Models\Registrar.php on line 18.
+ 1 APPPATH\Controllers\Contacto.php(51): App\Models\Registrar->guardar_persona([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 22:22:18 --> Call to a member function getResult() on bool
+in APPPATH\Models\Registrar.php on line 18.
+ 1 APPPATH\Controllers\Contacto.php(51): App\Models\Registrar->guardar_persona([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 22:25:38 --> Call to a member function getResult() on bool
+in APPPATH\Models\Registrar.php on line 18.
+ 1 APPPATH\Controllers\Contacto.php(51): App\Models\Registrar->guardar_persona([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto->guardar_persona()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
